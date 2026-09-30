@@ -1,0 +1,5 @@
+text,sentiment,intent,multi_label_notes
+The service was excellent and the agent solved my issue quickly.,POSITIVE,PRAISE,PRAISE
+Please cancel my subscription and refund this month's charge.,NEGATIVE,CANCELLATION,CANCELLATION|REFUND
+What documents do I need to verify my account?,NEUTRAL,INFO_REQUEST,INFO_REQUEST
+I was charged twice and nobody has responded to my complaint.,NEGATIVE,COMPLAINT,COMPLAINT|REFUND

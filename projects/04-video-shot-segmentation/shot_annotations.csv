@@ -1,0 +1,5 @@
+example,shot_1_frames,transition_frames,shot_2_frames,transition_type,number_of_scenes,reason
+A,0-59,60-68,69-127,DISSOLVE,2,Images from both shots are visibly blended across the transition.
+B,0-47,48-56,57-127,FADE,2,The image darkens/brightens progressively across the transition.
+C,0-63,64,65-110,CUT,2,The visual changes immediately with no blended transition frames.
+D,0-127,None,None,NO_TRANSITION,1,Camera movement or zoom alone does not create a new shot.

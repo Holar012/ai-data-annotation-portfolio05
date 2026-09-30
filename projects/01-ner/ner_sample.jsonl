@@ -1,0 +1,3 @@
+{"text": "Aisha joined Microsoft in London in March 2026.", "entities": [{"start": 0, "end": 5, "label": "PERSON"}, {"start": 13, "end": 22, "label": "ORG"}, {"start": 26, "end": 32, "label": "LOCATION"}, {"start": 36, "end": 46, "label": "DATE"}]}
+{"text": "Daniel paid £450 to BrightCare Ltd on 12 September 2026.", "entities": [{"start": 0, "end": 6, "label": "PERSON"}, {"start": 12, "end": 16, "label": "MONEY"}, {"start": 20, "end": 34, "label": "ORG"}, {"start": 38, "end": 55, "label": "DATE"}]}
+{"text": "Fatima moved from Manchester to Bristol last year.", "entities": [{"start": 0, "end": 6, "label": "PERSON"}, {"start": 18, "end": 28, "label": "LOCATION"}, {"start": 32, "end": 39, "label": "LOCATION"}, {"start": 40, "end": 49, "label": "DATE"}]}

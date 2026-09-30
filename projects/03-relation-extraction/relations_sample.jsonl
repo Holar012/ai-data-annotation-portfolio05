@@ -1,0 +1,6 @@
+{"text": "Maya works for Northstar Analytics.", "head": "Maya", "tail": "Northstar Analytics", "relation": "WORKS_FOR"}
+{"text": "Samuel studies at King's College London.", "head": "Samuel", "tail": "King's College London", "relation": "STUDIES_AT"}
+{"text": "Priya lives in Birmingham.", "head": "Priya", "tail": "Birmingham", "relation": "LIVES_IN"}
+{"text": "The company is located in Leeds.", "head": "company", "tail": "Leeds", "relation": "LOCATED_IN"}
+{"text": "Orbit Labs was founded by Helen Cole.", "head": "Orbit Labs", "tail": "Helen Cole", "relation": "FOUNDED_BY"}
+{"text": "Liam visited Oxford University during a conference.", "head": "Liam", "tail": "Oxford University", "relation": "NO_RELATION"}
