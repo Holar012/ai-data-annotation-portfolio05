@@ -1,0 +1,24 @@
+{
+  "id": "LLM-001",
+  "task": "Summarise the supplied notice in exactly two bullet points. Include the closure date and reopening time. Do not add facts.",
+  "source": "The town library will be closed on Monday 12 October 2026 for maintenance. It will reopen at 9 am on Tuesday 13 October 2026. Online services remain available.",
+  "response_a": "- The town library is closed on Monday 12 October 2026 for maintenance.\n- It reopens at 9 am on Tuesday 13 October 2026; online services remain available.",
+  "response_b": "The library is closed all week for renovations. It reopens next Monday at 10 am. Members will receive a refund.",
+  "preferred": "A",
+  "assessment": {
+    "A": {
+      "factual_accuracy": "PASS",
+      "instruction_following": "PASS",
+      "completeness": "PASS",
+      "unsupported_claims": "NONE"
+    },
+    "B": {
+      "factual_accuracy": "FAIL",
+      "instruction_following": "FAIL",
+      "completeness": "FAIL",
+      "unsupported_claims": "Closure duration, reopening details and refunds are unsupported or contradicted."
+    }
+  },
+  "rationale": "A is preferred because it follows the two-bullet format and accurately includes the closure date and reopening time. B changes the closure to a full week, gives an incorrect reopening day and time, and invents a refund. It also ignores the requested bullet format. A is grounded in the notice and includes both required details.",
+  "provenance": "AI-assisted synthetic demonstration prepared for author review; not client work or evidence of production performance."
+}
