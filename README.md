@@ -1,6 +1,8 @@
 # Gbenga Oyetola AI Data Annotation Portfolio
 Independent practice and synthetic demonstrations of NLP annotation, video boundaries, LLM evaluation and quality review.
 
+[View the six-page PDF portfolio](docs/Gbenga_Oyetola_Annotation_Portfolio.pdf)
+
 ## Start here
 1. [Named entity recognition](projects/01-ner): JSONL examples with exact character spans.
 2. [Text classification](projects/02-text-classification): sentiment and intent labels with decision rationales.
