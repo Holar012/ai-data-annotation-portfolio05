@@ -1,27 +1,11 @@
-# Project 2 — Text Classification
+# Text Classification
+Independent synthetic demonstration. Four examples; not a production dataset.
 
-## Objective
-Assign one or more labels to a piece of text based on its overall meaning.
+## Schema and rules
+Sentiment: POSITIVE, NEGATIVE, NEUTRAL. Assess expressed sentiment, not whether the action is cancellation or refund. A polite procedural request with no judgement is NEUTRAL under this practice rule.
 
-## Example Label Sets
+Intent: INFO_REQUEST, PRAISE, CANCELLATION, COMPLAINT, REFUND, FLAG. Multi-label tasks use every independently supported intent. REFUND requires an explicit request for money back; a billing complaint alone does not qualify.
 
-### Sentiment
-- POSITIVE
-- NEGATIVE
-- NEUTRAL
+For this single-label practice task, when both cancellation and refund are explicit, CANCELLATION is the primary intent. This tie-break is specific to this demonstration. Real project instructions override it.
 
-### Intent
-- INFO_REQUEST
-- PRAISE
-- CANCELLATION
-- COMPLAINT
-- REFUND
-- FLAG
-
-## Rules
-- Base the label on the text itself, not assumptions about the writer.
-- Use the dominant intent when the task is single-label.
-- Use all supported labels when the task is multi-label.
-- Do not add a second label simply because it is related.
-
-See `classification_sample.csv`.
+See classification_sample.csv for labels and decision rationales.
