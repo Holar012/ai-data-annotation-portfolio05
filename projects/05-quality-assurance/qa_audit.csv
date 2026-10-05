@@ -1,0 +1,8 @@
+id,area,issue,correction,rule
+QA-01,Text classification,Cancellation and refund request labelled NEGATIVE,Changed to NEUTRAL,No expressed negative judgement under the documented practice rule.
+QA-02,Text classification,Billing complaint assigned REFUND without request,Removed REFUND,Complaint does not independently support a refund intent.
+QA-03,Video schema,Guideline and export used different transition labels,"Aligned both to CUT, DISSOLVE, FADE, NO_TRANSITION",The practice schema must match the exported labels.
+QA-04,Video boundary,Cut frame recorded separately from the next shot,New shot begins at cut boundary frame 64,"A hard cut is a boundary event, not a separate transition interval."
+QA-05,Video scenes,Scene counts stated without source footage,Changed to UNKNOWN,Shot boundaries do not establish scene count.
+QA-06,PDF relation,Joined Northstar Labs in London treated as company location,Used explicit company-location sentence,The original wording does not unambiguously locate the company.
+QA-07,Portfolio background,Dates and certificates differed from the current CV,Aligned background to the supplied CV,Professional documents should present consistent facts.
