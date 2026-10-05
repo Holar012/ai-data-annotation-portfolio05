@@ -1,15 +1,6 @@
 # Profile Summary
+Gbenga Oyetola, High Wycombe, UK. BSc Computer Science, University of Benin.
 
-AI data annotation professional with hands-on experience and training across NLP and computer vision workflows. Comfortable working with detailed project guidelines, structured labelling schemas, edge cases, and quality-control checks.
+Current CV background: AI Annotation Specialist at COSMIC365.AI, May 2022 to present; Data Annotator at Teknesis, February 2021 to April 2022.
 
-Current focus areas include:
-
-- NLP annotation
-- LLM data quality
-- Named Entity Recognition
-- Text classification
-- Relation extraction
-- Video shot and transition annotation
-- Annotation QA
-
-Tools used include Doccano, CVAT, Docker, and GitHub.
+This portfolio presents independent demonstrations. The small samples do not substantiate production volume, client scores or employer verification.

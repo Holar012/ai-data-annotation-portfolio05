@@ -1,81 +1,21 @@
-# Gbenga Oyetola — AI Data Annotation Portfolio
+# Gbenga Oyetola AI Data Annotation Portfolio
+Independent practice and synthetic demonstrations of NLP annotation, video boundaries, LLM evaluation and quality review.
 
-AI Data Annotation | NLP | Computer Vision | LLM Data Quality
+## Start here
+1. [Named entity recognition](projects/01-ner): JSONL examples with exact character spans.
+2. [Text classification](projects/02-text-classification): sentiment and intent labels with decision rationales.
+3. [Relation extraction](projects/03-relation-extraction): supported relations and NO_RELATION.
+4. [Video annotation](projects/04-video-shot-segmentation): a consistent illustrative transition schema and CSV.
+5. [Quality review](projects/05-quality-assurance): issue-by-issue correction audit.
+6. [LLM evaluation](projects/06-llm-evaluation): two responses, a practice rubric and a preference rationale.
 
-This portfolio contains original demonstration projects showing how I approach annotation tasks, apply project guidelines, handle edge cases, and perform quality checks.
+## Provenance and scope
+These are small demonstration datasets, not confidential client work or measured production results. The LLM evaluation example was prepared with AI assistance for author review. The video annotations are illustrative and have not been verified against source footage in this repository. Tool screenshots and original exports are not yet included.
 
-> **Important:** The examples in this repository are practice/demo materials created for portfolio purposes. They do not contain confidential client data or proprietary project content.
+## Tools and background
+My practice tools include Doccano, CVAT and Docker Desktop. I hold a BSc in Computer Science from the University of Benin.
 
-## Core Skills
+## QA
+Run `python validate_samples.py` to check JSON/CSV structure, NER boundaries and the video schema. Passing these structural checks does not establish semantic accuracy or independent review.
 
-- Named Entity Recognition (NER)
-- Sentiment and intent classification
-- Multi-label text classification
-- Relation extraction
-- Video shot and transition annotation
-- Annotation guideline interpretation
-- Edge-case handling and quality assurance
-- Data review and consistency checking
-
-## Tools
-
-- Doccano
-- CVAT
-- Docker
-- GitHub
-- JSON / JSONL / CSV
-
-## Portfolio Projects
-
-### 1. Named Entity Recognition
-Entity labeling using categories such as `PERSON`, `ORG`, `LOCATION`, `DATE`, and `MONEY`.
-
-Folder: `projects/01-ner`
-
-### 2. Text Classification
-Examples covering sentiment, customer intent, and multi-label classification.
-
-Folder: `projects/02-text-classification`
-
-### 3. Relation Extraction
-Examples of relationships such as `WORKS_FOR`, `STUDIES_AT`, `LIVES_IN`, `LOCATED_IN`, and `FOUNDED_BY`.
-
-Folder: `projects/03-relation-extraction`
-
-### 4. Video Shot & Transition Annotation
-Practice annotations covering shot boundaries and transition types including `CUT`, `DISSOLVE`, `FADE_IN`, and `FADE_OUT`.
-
-Folder: `projects/04-video-shot-segmentation`
-
-### 5. Annotation QA
-A practical checklist for reviewing label accuracy, guideline compliance, edge cases, and consistency.
-
-Folder: `projects/05-quality-assurance`
-
-## Annotation Approach
-
-My workflow is simple and consistent:
-
-1. Read the project guidelines fully before annotating.
-2. Identify the annotation unit and allowed labels.
-3. Apply labels only when the evidence meets the guideline.
-4. Handle ambiguous cases conservatively.
-5. Review boundaries, label consistency, and missed items.
-6. Perform a final QA pass before submission.
-
-## Quality Principles
-
-I focus on:
-
-- Following the project definition rather than personal assumptions
-- Keeping labels consistent across similar examples
-- Avoiding over-annotation
-- Checking difficult or ambiguous cases twice
-- Documenting why an edge case was labelled a certain way
-- Protecting client confidentiality
-
-## Professional Use
-
-This repository can be used as supporting material for AI data annotation, data labelling, LLM evaluation, NLP annotation, and computer vision annotation applications.
-
-For account or employment verification, I can also provide professional profiles, a CV, academic documentation, or employer documentation where required.
+No confidential client information or proprietary project instructions are included.
